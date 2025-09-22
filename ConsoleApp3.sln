@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "homework1", "homework1.csproj", "{615A1CE7-5AE2-4EC0-88F6-060C534C5F8E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tbc", "tbc.csproj", "{615A1CE7-5AE2-4EC0-88F6-060C534C5F8E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
