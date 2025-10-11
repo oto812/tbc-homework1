@@ -4,6 +4,12 @@ public class homework2
 {
     public static void Main()
     {
+
+        long l = 2147483648123;  // 
+        l++;
+        int a = (int)l;
+        Console.WriteLine(a);
+        
         // Task 1
         Console.WriteLine("Enter Integer Number");
         int input = Convert.ToInt32(Console.ReadLine());
