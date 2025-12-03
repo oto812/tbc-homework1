@@ -6,6 +6,20 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <RootNamespace>homework1</RootNamespace>
+        <DefaultItemExcludes>$(DefaultItemExcludes);BookStoreApi\**</DefaultItemExcludes>
+
     </PropertyGroup>
+
+    <ItemGroup>
+      <Compile Remove="BookStoreApi\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="BookStoreApi\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="BookStoreApi\**" />
+    </ItemGroup>
 
 </Project>
